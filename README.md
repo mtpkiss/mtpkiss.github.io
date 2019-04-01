@@ -1,6 +1,6 @@
 # ck
 
-已开启 Gitee Pages 服务，网站地址： https://ck.gitee.io
+已开启 Gitee Pages 服务，网站地址： https://mtpkiss.github.io
 
 ```bash
 # 提交源代码
