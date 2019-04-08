@@ -26,12 +26,12 @@ defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
 ```
 
-## 锁定拓展坞
+## 锁定程序坞
 ```bash
 defaults write com.apple.dock contents-immutable -boolean YES; killall Dock
 ```
 
-## 解锁拓展坞
+## 解锁程序坞
 ```bash
 defaults write com.apple.Dock contents-immutable -bool no; killall Dock
 ```
