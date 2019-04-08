@@ -94,11 +94,11 @@ export PATH=$PATH:$MAVEN_HOME/bin
 cd ~
 mkdir .aria2
 cd .aria2
-touch arai2.conf
+touch aria2.conf
 touch aria2.session
 ```
 
-arai2.conf 内容如下 
+aria2.conf 内容如下 
 ```conf
 ## '#'开头为注释内容, 选项都有相应的注释说明, 根据需要修改 ##
 ## 被注释的选项填写的是默认值, 建议在需要修改时再取消注释  ##
@@ -141,10 +141,10 @@ disable-ipv6=true
 
 ## 进度保存相关 ##
 
-# 从会话文件中读取下载任务
-input-file=aria2.session
+# 从会话文件中读取下载任务 这里的 ex 是我的用户名
+input-file=/Users/ex/.aria2/aria2.session
 # 在Aria2退出时保存`错误/未完成`的下载任务到会话文件
-save-session=aria2.session
+save-session=/Users/ex/.aria2/aria2.session
 # 定时保存会话, 0为退出时才保存, 需1.16.1以上版本, 默认:0
 save-session-interval=60
 
