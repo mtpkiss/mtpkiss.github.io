@@ -13,25 +13,26 @@ tags:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/one-key-hidpi/master/hidpi.sh)"
 ```
 
+##常用命令
 
-## 显示隐藏文件
+### 显示隐藏文件
 
 ```bash
 defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 ```
 
-## 关闭隐藏文件显示
+###关闭隐藏文件显示
 
 ```bash
 defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
 ```
 
-## 锁定程序坞
+### 锁定程序坞
 ```bash
 defaults write com.apple.dock contents-immutable -boolean YES; killall Dock
 ```
 
-## 解锁程序坞
+### 解锁程序坞
 ```bash
 defaults write com.apple.Dock contents-immutable -bool no; killall Dock
 ```
@@ -46,10 +47,10 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Hom
 export PATH=$PATH:$JAVA_HOME/bin
 ```
 
-``
 
 
 ## 下载 maven 并环境变量
+
 [maven 官网](http://maven.apache.org/download.cgi)
 
 ```bash
@@ -57,7 +58,7 @@ export MAVEN_HOME=/Users/ex/Documents/apache-maven-3.6.0
 export PATH=$PATH:$MAVEN_HOME/bin
 ```
 
-``
+
 
 ## maven 使用阿里云的镜像
 [阿里云镜像官网](https://maven.aliyun.com/)
@@ -84,11 +85,11 @@ export PATH=$PATH:$MAVEN_HOME/bin
 
 ## 安装 下载工具
 
-安装`aria2`
+####安装`aria2`
 
 `brew install aria2`
 
-创建配置文件
+####创建配置文件
 
 ```bash
 cd ~
@@ -197,16 +198,17 @@ bt-seed-unverified=true
 bt-save-metadata=true
 ```
 
-新建一个`run_aria2.sh`
+####新建`run_aria2.sh`
+
 ```bash
 #!/bin/sh#!/bin/sh
 aria2c --conf-path="/Users/ex/.aria2/aria2.conf" -D
 ```
 
-设置权限
+####设置权限 并添加到自启
 `sudo chmod 777 run_aria2.sh`
 系统偏好设置->用户与群组->登陆项-点击+把刚才创建的`run_aria2.sh`加进去
 
-Chrome 浏览器安装`Aria2 for Chrome`
+####Chrome 浏览器安装插件`Aria2 for Chrome`
 
 本来准备使用自动操作的,但是不清楚为什么 aria2c 一直提示命令找不到
