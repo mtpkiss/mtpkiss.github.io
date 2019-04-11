@@ -11,3 +11,9 @@ git push
 hexo d -g
 ```
 
+
+### maupassant 主题修改
++ 文章详情页时间格式化样式修改
++ 长链接换行问题修复
++ 去掉主题sidebar的border-left,为content_container增加border-right
++ 主题最大宽度调整
