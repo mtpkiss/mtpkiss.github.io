@@ -1,12 +1,12 @@
 extends base
 
 block title
-  title= page.title + ' | ' + config.title
+  title #{page.title +' | '+ config.title}
 
 block content
   .post
-    h1.post-title= page.title
-    .post-meta= page.date.format(config.date_format)
+    h1.post-title #{page.title}
+    .post-meta #{page.date.format(config.date_format)}
       if page.categories.length > 0
         span= ' | '
         span.category

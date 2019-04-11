@@ -1,6 +1,7 @@
 ---
 title: mac下配置开发环境
 date: 2019-04-06 13:33:21
+categories: java
 tags:
     - mac
     - java
