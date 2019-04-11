@@ -3,7 +3,7 @@ title: mysql数据去重
 date: 2017-12-05 09:30:55
 tags: mysql
 ---
-# MySql 去重
+## MySql 去重
 
 ### sql语句来自网络,个人收集,未进行测试,请使用前备份
 
