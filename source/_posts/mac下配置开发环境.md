@@ -14,7 +14,7 @@ tags:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/one-key-hidpi/master/hidpi.sh)"
 ```
 
-##常用命令
+## 常用命令
 
 ### 显示隐藏文件
 
@@ -22,7 +22,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/one-key-hidpi/ma
 defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder
 ```
 
-###关闭隐藏文件显示
+### 关闭隐藏文件显示
 
 ```bash
 defaults write com.apple.finder AppleShowAllFiles -boolean false ; killall Finder
