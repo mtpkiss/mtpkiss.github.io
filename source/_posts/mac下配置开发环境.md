@@ -86,11 +86,11 @@ export PATH=$PATH:$MAVEN_HOME/bin
 
 ## 安装 下载工具
 
-####安装`aria2`
+#### 安装`aria2`
 
 `brew install aria2`
 
-####创建配置文件
+#### 创建配置文件
 
 ```bash
 cd ~
@@ -199,17 +199,17 @@ bt-seed-unverified=true
 bt-save-metadata=true
 ```
 
-####新建`run_aria2.sh`
+#### 新建`run_aria2.sh`
 
 ```bash
 #!/bin/sh#!/bin/sh
 aria2c --conf-path="/Users/ex/.aria2/aria2.conf" -D
 ```
 
-####设置权限 并添加到自启
+#### 设置权限 并添加到自启
 `sudo chmod 777 run_aria2.sh`
 系统偏好设置->用户与群组->登陆项-点击+把刚才创建的`run_aria2.sh`加进去
 
-####Chrome 浏览器安装插件`Aria2 for Chrome`
+#### Chrome 浏览器安装插件`Aria2 for Chrome`
 
 本来准备使用自动操作的,但是不清楚为什么 aria2c 一直提示命令找不到
