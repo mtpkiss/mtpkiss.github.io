@@ -15,6 +15,6 @@ Eclipse下`springboot maven`项目,报错如下
 <!--more-->
 
 解决办法
-- `Maven -> update project` //一般情况下可以解决,如果无效请尝试下一个命令
+- 右键项目 `Maven -> update project` 快捷键 `alt+f5`//一般情况下可以解决,如果无效请尝试下一个命令
 - `mvn eclipse:clean` //重新导入项目
 
