@@ -11,7 +11,7 @@ tags:
 
 ## 安装 `Docker`
 
-[Docker下载]https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+[Docker下载](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 
 安装完毕后再状态栏可以看到小鲸鱼的图标
 
@@ -23,11 +23,14 @@ tags:
 
 ### 配置阿里云镜像
 
-右键状态栏小鲸鱼图标-->`Settings`-->`Daemon`-->`Registy Mirrors` 输入 `https://juultkrz.mirror.aliyuncs.com` 
+右键状态栏小鲸鱼图标-->`Settings`-->`Daemon`-->`Registy Mirrors` 输入 `https://你的加速地址.mirror.aliyuncs.com` 
+
+#### 如何获得阿里云的容器加速地址
+- 登陆[阿里云](https://www.aliyun.com/)
+- 产品与服务-->容器镜像服务-->镜像中心-->镜像加速器
 
 ![Settings.png](https://s2.ax1x.com/2019/04/28/EMbUfO.png)
-![Registy Mirrors.png](https://s2.ax1x.com/2019/04/28/EMbdpD.png)
-
+![Registy Mirrors.png](https://s2.ax1x.com/2019/04/28/EMvf3V.png)
 ### 修改默认存放位置
 
 `Docker` 在 `windows` 下默认存放位置是 `C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\MobyLinuxVM.vhdx`  若需要修改的话.可移动到其他盘符
