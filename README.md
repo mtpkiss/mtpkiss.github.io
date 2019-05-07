@@ -17,3 +17,6 @@ hexo d -g
 + 长链接换行问题修复
 + 去掉主题sidebar的border-left,为content_container增加border-right
 + 主题最大宽度调整
++ 启用valine
++ 删除其他评论系统
++ 删除gitment样式文件 default.css 和代码中的相关内容
