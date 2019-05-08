@@ -8,12 +8,6 @@ tags:
     - vscode
     - aria2
 ---
-## 开启 hidpi (黑苹果)
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/one-key-hidpi/master/hidpi.sh)"
-```
-
 ## 常用命令
 
 ### 显示隐藏文件

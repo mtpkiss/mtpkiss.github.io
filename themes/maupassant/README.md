@@ -1,5 +1,14 @@
 # Maupassant
 
+## 我修改了什么
+* `sidebar` `border-left` 删除,为 `content_container` 增加 `border-right`
+* 去掉 `body_container` 的 `max-width: 1150px;`
+* `sidebar` `tag`图标修改
+* 文章详情页最下面的 `tag` 图标修改
+* 文章详情页 发布时间格式化修改
+* 使用 `hexo` 提供的辅助函数 `date` 来格式化时间
+* 给`文章`增加 `border-bottom` `阅读全文移动2px去掉圆角`
+
 [![Build Status](https://travis-ci.org/tufu9441/maupassant-hexo.svg?branch=master)](https://travis-ci.org/tufu9441/maupassant-hexo)   [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/tufu9441/maupassant-hexo/blob/master/LICENSE)
 
 > 大道至简
@@ -249,3 +258,4 @@ Thanks for all the [contributors](https://github.com/tufu9441/maupassant-hexo/gr
 + Farbox：https://github.com/pagecho/Maupassant-farbox/
 + Wordpress：https://github.com/iMuFeng/maupassant/
 + Ghost: https://github.com/LjxPrime/maupassant/
++ Hugo: https://github.com/rujews/maupassant-hugo/
