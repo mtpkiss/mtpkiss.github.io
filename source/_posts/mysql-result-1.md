@@ -3,9 +3,7 @@ title: mysql数据去重
 date: 2017-12-05 09:30:55
 tags: mysql
 ---
-## MySql 去重
-
-### sql语句来自网络,个人收集,未进行测试,请使用前备份
+### Sql语句来自网络,个人收集,未进行测试,请使用前备份
 
 ```sql
 DELETE consum_record
@@ -42,15 +40,15 @@ AND consum_record.id > t2.id;
     user_id,
     monetary,
     consume_time
-  FROM
+    FROM
     consum_record
-  GROUP BY
+    GROUP BY
     user_id,
     monetary,
     consume_time
-  HAVING
+    HAVING
     count(*) > 1
-  ) t2
+    ) t2
    ```
 2. 关联判断重复基准的字段根据条件，删除原表中id大于t2中id的记录
 

@@ -5,10 +5,7 @@ categories: java
 tags: 
 	- SpringBoot
 	- Shiro
-
 ---
-
-# Spring Boot 整合 Shiro
 
 ## 原生的整合
 

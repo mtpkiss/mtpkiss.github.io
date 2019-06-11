@@ -5,10 +5,7 @@ categories: java
 tags: 
 	- SpringBoot
 	- Session
-
 ---
-
-# Spring Boot 搞定 session 共享
 
 ## 1.1 创建工程
 
